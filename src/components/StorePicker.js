@@ -1,8 +1,14 @@
-import React from 'react'; 
+import React, {Fragment} from 'react'; 
 
 class StorePicker extends React.Component {
     render() {
-        return <p>testing!!</p>
+        return (
+            <Fragment>
+                <h2>Please Enter Store</h2>
+                <input type="text" placeholder="Store Name"  required/>
+                <button type="submit">Visit Store -></button>
+            </Fragment>
+        )
     }
 }
 
